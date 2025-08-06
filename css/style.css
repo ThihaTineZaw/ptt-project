@@ -137,6 +137,7 @@ esses .nav-link::after {
     var(--primary-color),
     var(--secondary-color)
   );
+
   position: relative;
   overflow: hidden;
 }
@@ -175,19 +176,26 @@ esses .nav-link::after {
 /* responsive design  */
 @media (max-width: 576px) {
   .banner-contents h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem !important;
+    
   }
   .banner-contents h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0;
+   font-weight: normal;
+    padding: 0;
+    margin: 15px auto;
   }
   .banner-contents p {
-    font-size: 1.1rem;
+    font-size: 0.9rem !important;
+ 
   }
   .btn-warning {
     width: 70%;
   }
+
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .banners {
     height: auto;
     min-height: 75vh;
@@ -204,7 +212,29 @@ esses .nav-link::after {
   .btn-warning {
     width: 85%;
   }
+    .banner-contents h1 {
+    font-size: 1.8rem !important;
+    
+  }
+  .banner-contents h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+   font-weight: normal;
+    padding: 0;
+    margin: 15px auto;
+  }
+  .banner-contents p {
+    font-size: 0.9rem !important;
+ 
+  }
+
+
 }
+  @media (max-width:1057px) {
+    .banner-contents h1{
+      font-size: 3rem !important;
+    }
+  }
 
 /* start animation banner  */
 @keyframes fadeup {
@@ -286,7 +316,7 @@ section .card-text h6 {
 section .card-text p {
   color: #666;
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: start;
 }
 /* end client section */
 
