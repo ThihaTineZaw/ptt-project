@@ -100,7 +100,7 @@ h6 {
 .nav-link:hover {
   color: #fff !important;
 }
-esses .nav-link::after {
+.nav-link::after {
   content: "";
   position: absolute;
   width: 0;
@@ -176,11 +176,11 @@ esses .nav-link::after {
 /* responsive design  */
 @media (max-width: 576px) {
   .banner-contents h1 {
-    font-size: 1.5rem !important;
+    font-size: 12px !important;    
     
   }
   .banner-contents h2 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     letter-spacing: 0;
    font-weight: normal;
     padding: 0;
@@ -198,21 +198,21 @@ esses .nav-link::after {
 @media (max-width: 850px) {
   .banners {
     height: auto;
-    min-height: 75vh;
+    min-height: 80vh;
   }
   .banner-contents h1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   .banner-contents h2 {
-    font-weight: 100;
+    font-weight: 100 !important;
   }
   .banner-contents p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .btn-warning {
     width: 85%;
   }
-    .banner-contents h1 {
+  .banner-contents h1 {
     font-size: 1.8rem !important;
     
   }
